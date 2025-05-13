@@ -43,7 +43,9 @@ npm run dev
 
 Make sure uploads/ and notes/ directories are writable. They are auto-created if missing.
 
-##🔌 API Endpoints
+---
+
+## 🔌 API Endpoints
 POST /creat
 Function: Save a new note from raw Markdown text sent in the request body.
 
@@ -56,7 +58,7 @@ Function: Render a saved Markdown note (identified by its ID) to HTML and return
 POST /grammar
 Function: Analyze Markdown content for grammar and spelling mistakes using the LanguageTool API. Returns a list of issues found.
 
-
+---
 
 ## ⚙️ Tech Stack
 Node.js + Express
